@@ -1,0 +1,81 @@
+﻿#menu {
+    font-family: "Lato", sans serif;
+}
+
+nav {
+    padding: 0 70px 17px 70px;
+    height: 80px;
+    line-height: 70px;
+}
+
+ul {
+    list-style: none;
+    background-color: lemonchiffon;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border: groove;
+}
+
+li {
+    color: black;
+    font-size: 16px;
+    line-height: 20px;
+    width: 80px;
+    background-color: palegoldenrod;
+    display: inline-block;
+    padding: 20px;
+    border: groove;
+}
+
+li a:hover {
+    background-color: darkgoldenrod;
+}
+nav#menu a {
+    text-decoration: none;
+    color: #ffffff;
+}    
+.img{
+    border: 3px groove black;
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+    border-bottom-left-radius: 17px;
+    border-bottom-right-radius: 17px;
+}
+.divove {
+    text-align: center;
+    border: 3px groove black;
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+    border-bottom-left-radius: 17px;
+    border-bottom-right-radius: 17px;
+    background-color: cornsilk;
+}
+body {
+    background-color: lightgray;
+    /*display:flex;*/
+}
+#first{
+    position:relative;
+    top:20px;
+}
+#prane{
+    width:400px;
+    height:400px;
+}
+#second {
+    position: relative;
+    top: 30px;
+}
+/*#buton {
+    position: relative;
+    top:60px
+}*/
+dt {
+    font-size: 25px;
+}
+#logo {
+    position: relative;
+    left: 150px;
+    bottom: 57px;
+}
